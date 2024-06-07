@@ -3,9 +3,8 @@ import json
 
 def get_txt():
     """Функция чтения файла json"""
-    with open('operations.json', 'r', encoding='UTF-8') as file:
-        text_json = json.load(file)
-        return text_json
+    with open('operations.json', encoding='UTF-8') as file:
+        return json.load(file)
 
 
 def date_form(srt_date: str):
