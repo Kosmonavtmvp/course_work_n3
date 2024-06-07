@@ -25,6 +25,6 @@ def mask_card_number(card_number):
     if len(card_number) == 16:
         masked_number = card_number[:4] + ' ' + card_number[4:6] + '** **** ' + card_number[-4:]
         return masked_number
-    elif len(card_number) == 20:
+    elif len(card_number) >= 20:
         masked_number = '**' + card_number[-4:]
         return masked_number

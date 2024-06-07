@@ -1,4 +1,4 @@
-from functions import get_txt, get_from_card, date_form, mask_card_number
+from utils.functions import get_txt, get_from_card, date_form, mask_card_number
 
 operations_list = get_txt()
 my_list = []
