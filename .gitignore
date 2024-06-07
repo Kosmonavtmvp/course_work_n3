@@ -1,4 +1,4 @@
 venv
 .idea
-poetry.lock
-pyproject.toml
+/poetry.lock/
+/pyproject.toml/
